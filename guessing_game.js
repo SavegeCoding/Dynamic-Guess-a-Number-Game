@@ -108,7 +108,7 @@ numberInput.addEventListener("input", () => {
 });
 
 maxNumberInput.addEventListener("input", () => {
-    if (!secretNumberGenerated && validateInput(maxNumberInput)) {
+    if ((!secretNumberGenerated && validateInput(maxNumberInput)) || maxNumberInput.valueAsNumber === maxNumber) {
         maxNumberInput.style.border = "";
     }
     else {
