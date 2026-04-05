@@ -1,0 +1,89 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 3vw;
+}
+
+#main-heading {
+    position: absolute;
+    left: 50vw;
+    top: -7vh;
+    transform: translateX(-50%);
+}
+
+.game-container {
+    position: relative;
+    left: 50vw;
+    top: 50vh;
+    width: 90vw;
+    height: 75vh;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    font-size: 2vw;
+}
+
+.inputs {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+}
+
+#number-input {
+    left: 20%;
+    top: 60%;
+    font-size: 80%;
+}
+
+#guess-btn {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 20%;
+    height: 10%;
+    transform: translateX(-50%);
+    background-color: green;
+    color: #222;
+    font-size: 95%;
+}
+
+#max-number-input {
+    left: 70%;
+    top: 30%;
+    font-size: 70%;
+}
+
+#guess-limit {
+    left: 70%;
+    top: 60%;
+    font-size: 75%;
+}
+
+#guess-status {
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    transform: translateX(-50%);
+}
+
+#guesses-left-heading {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    font-size: 2vw;
+}
+
+#reset-btn {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 20%;
+    height: 10%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: #222;
+    font-size: 95%;
+}
